@@ -1,0 +1,258 @@
+ body {
+
+     background-image: url(Augenflimmern-Lichtpunkte-672x372.jpg);
+     background-size: cover;
+ }
+
+ #encabezado {
+     position: relative;
+     display: inline-block;
+     margin-bottom: 50px;
+     margin-right: auto;
+     margin-top: 500px;
+     width: 1480px;
+     height: 60px;
+     margin-top: 0px;
+
+
+ }
+
+
+ #texto {
+     position: center;
+     text-align: center;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-size: 40px;
+     color: #58e1df;
+     border: 0px;
+ }
+
+ h2 {
+     color: #040405;
+     font-style: normal;
+     box-sizing: content-box;
+     text-align: justify;
+ }
+
+ #navegador {
+     width: 1480px;
+     margin-top: 0px;
+     margin-left: 0px;
+ }
+
+ #navegador ul {
+     list-style-type: none;
+     text-align: left;
+     position: relative;
+ }
+
+ #navegador li {
+     display: inline;
+     text-align: center;
+     margin: 0 0 px 00;
+     margin-right: 10px;
+ }
+
+ #navegador li a {
+     padding: 2px 7px 2px 7px;
+     color: rgb(6, 82, 141);
+     background-color: #58e1df;
+     border: 5px solid rgb(32, 101, 175);
+     text-decoration: none;
+     border-radius: 3px;
+ }
+
+ #navegador li a:hover {
+     background-color: #333333;
+     color: fffffff;
+ }
+
+ #contac {
+
+     margin-top: 40px;
+     margin-left: 500px;
+     margin-right: 350px;
+     
+ }
+ #contra {
+
+    margin-top: 40px;
+    margin-left: 450px;
+    margin-right: 400px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;    
+    
+}
+
+
+ input text{
+
+     padding: 5px;
+     margin: 5px;
+    }
+input type {
+    width: 300px;
+    }
+
+ label {
+     margin: 5px;
+ }
+
+ div {
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: small;
+     font-weight: 100;
+
+
+ }
+
+ main p {
+
+     margin-left: 50px;
+     font-size: 25px;
+     text-align: center;
+     color: aqua;
+ }
+
+ h1 {
+     color: aqua;
+     font-size: 40px;
+ }
+
+ .tit {
+     color: aqua;
+     text-align: center;
+     font-size: 40px;
+ }
+
+ .cajas {
+     width: 1100px;
+     height: 750px;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     font-style: normal;
+     vertical-align: auto;
+     margin-top: 30px;
+     padding: 5px;
+     position: static;
+     float: left;
+     display: table;
+
+ }
+
+ .caja2 {
+
+     width: 700px;
+     height: 220px;
+     border-radius: 5px;
+     position: absolute;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     font-style: normal;
+     font-weight: 100px;
+     background-color: rgb(62, 145, 233);
+     font-weight: bold;
+     padding: 3px;
+     left: 65px;
+     top: 1150px;
+     text-align: justify;
+     z-index: 2;
+ }
+
+ .caja3 {
+     width: 700px;
+     height: 150px;
+     border-radius: 5px;
+     background-color: rgb(62, 145, 233);
+     position: absolute;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     font-style: normal;
+     font-weight: bold;
+     padding: 3px;
+     left: 65px;
+     top: 1400px;
+     text-align: justify;
+     z-index: 3;
+ }
+
+ .caja4 {
+
+     width: 700px;
+     height: 200px;
+     border-radius: 5px;
+     background-color: rgb(62, 145, 233);
+     position: absolute;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     font-style: normal;
+     font-weight: bold;
+     padding: 3px;
+     left: 65px;
+     top: 1580px;
+     text-align: justify;
+     z-index: 4;
+ }
+
+ #piepag {
+     width: 1480px;
+     height: 250px;
+     background-color: #58e1df;
+     position: relative;
+     font-size: 20px;
+     text-align: center;
+     border-top: 5px solid rgb(62, 145, 233);
+     border-bottom: 5px solid rgb(62, 145, 233);
+     border-right: 5px solid rgb(62, 145, 233);
+     border-left: 5px solid rgb(62, 145, 233);
+
+ }
+
+ #logo {
+     width: 1480px;
+     margin-top: 0px;
+ }
+
+ .slider-container {
+     display: flex;
+     width: 100%;
+     height: 100vh;
+     overflow-x: scroll;
+     scroll-snap-type: mandatory;
+
+ }
+
+ .slider-container img {
+     width: 1480px;
+     flex: 0 0 100%;
+     object-fit: cover;
+     object-position: right;
+     scroll-snap-align: center;
+ }
+
+ table {
+     margin-top: 20px;
+     margin-left: 200px;
+     margin-right: 390px;
+     width: 70%;
+     height: 40%;
+ }
+
+ #button {
+     right: 800%;
+ }
+
+ #aside {
+     float: right;
+     position: relative;
+     margin-top: 400px;
+ }
+
+ #equi {
+     font-size: 200px;
+     font-weight: 100px;
+     text-align: center;
+     border-image-source: 15px;
+ }
+
+ caption {
+     font-size: 40px;
+     margin-right: 100px;
+ }
+

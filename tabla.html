@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contrataciones</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script>
+        function otraPagina() {
+            var confirmar = confirm("Estas seguro que deseas salir?");
+            if (confirmar) {
+                window.location.href = "https://www.google.es"
+            } else {
+
+            }
+        }
+    </script>
+
+
+</head>
+
+<body>
+
+    <header>
+
+        <nav>
+            <div id="navegador">
+                <ul>
+                    <li> <a href="index.html"> Inicio</a> </li>
+                    <li> <a href="Somos.html"> Quienes somos </a></li>
+                    <li> <a href="Contacto.html"> Contacto </a></li>
+                    <li> <a href="tabla.html"> Contrataciones</a></li>
+                    <li><a href="#piepag">Ir al pie de pagina</a></li>
+                    <!--Esta en la barra de navegación-->
+                </ul>
+            </div>
+        </nav>
+
+        <main>
+
+
+            <center><img src="logo FD.jpeg" alt="" height="300" width=950"></center>
+
+
+            <div id="contra">
+
+                <form method="" action="">
+
+                    Nombre: <input type="text" name="nombre"> <br>
+                    Apellido:<input type="text" name="apellido"> <br>
+                    Contraseña:<input type="password" name="pas"> <br> <br>
+
+                    Indique Producto:
+                    <select id="Producto" name="Producto">
+                        <option value="pan"> Pantalla </option>
+                        <option value="tel"> Telon Led </option>
+                        <option value="tele"> Televisores </option>
+                        <option value="aud"> Audio </option>
+                    </select>
+                    <br><br>
+
+                    Indique medidas de la pantalla: <br><br>
+
+                    1 mt x 2 mts: <input type="radio" name="tam" ><br>
+                    1 mts x 3 mts: <input type="radio" name="tam" > <br>
+                    2 mts x 2 mts: <input type="radio" name="tam" > <br>
+                    2 mts x 3 mts: <input type="radio" name="tam" > <br>
+                    2 mts x 4 mts: <input type="radio" name="tam" > <br>
+                    3 mts x 4 mts: <input type="radio" name="tam"> <br>
+                    3 mts x 5 mts: <input type="radio" name="tam" ></b><br>
+
+                    <p>Antes de contratar indica a cuantos kilometros te encuentras de san nicolas</p>
+                    <ul>
+                        <li>Ingresa los kilometros de distancia con San Nicolás</li>
+                        <li>Haz click en el boton calular para saber el costo de viáticos</li>
+                    </ul>
+
+                    <p>
+
+                        <a class="botonestilo" href="#" role="button" id="boton"> Calcular aquí</a>
+                    </p>
+                    <script>
+                        var boton = document.getElementById("boton");
+                        boton.onclick = function (e) {
+                            var usuario = prompt("Cual es la distancia")
+                            var distancia = parseInt(usuario);
+
+                            if (distancia > 40) {
+                                alert("El costo de viáticos por la distancia es de $800");
+                            } else {
+                                alert("No te cobramos costo de viáticos")
+                            }
+
+                        }
+                    </script>
+                    </style>
+                    <br> <br>
+                    <input type="submit" value="Contratar">
+                    <input type="reset" value="Cancelar"> <br>
+
+                </form>
+            </div>
+
+            <p>"No dudes en comunicarte con nosostros..."</p>
+            <br>
+            <center><a href="https://wa.me/3364662237?text=¡Estoy+interesado!"> <img src="whatsapp.jpg" alt=""
+                        height="100"></a>
+            </center>
+        </main>
+
+        <br><br><br>
+
+        <button><a href="#navegador">Volver a la barra de navegacion</a></button>
+        <button><a href="index.html">Volver a la página principal</a></button>
+        <button onclick="otraPagina()">Salir de la página</button>
+
+        <footer id="piepag">
+
+            <p><b> FD Servicios Visuales </b></p>
+            <p> Movil: 3364662237</p>
+            <p> Domicilio: Almafuerte 42 - San Nicolas de los Arroyos - Buenos Aires - Argentina</p>
+
+
+            <a href="https://www.facebook.com/profile.php?id=100064220490784"><img src="logo facebook.jpg" alt=""
+                    width="20" height="20"></a>&nbsp; &nbsp; &nbsp;
+            <a href=https://instagram.com/fdserviciosvisuales?igshid=YmMyMTA2M2Y=><img src="logo instagram.webp" alt=""
+                    width="20" height="20"></a>
+            <P>© 2010 FD Servicios Visuales</P>
+
+        </footer>
+
+</html>
